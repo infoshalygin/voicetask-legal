@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceTask — Политика конфиденциальности</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #FAFAF7; color: #1A1A1A; line-height: 1.7; padding: 20px; max-width: 700px; margin: 0 auto; }
+        h1 { font-size: 28px; margin: 40px 0 10px; }
+        h2 { font-size: 20px; margin: 30px 0 10px; color: #FF6B35; }
+        p { margin: 10px 0; color: #444; }
+        .date { color: #999; font-size: 14px; }
+        .logo { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+        .logo-icon { width: 36px; height: 36px; background: linear-gradient(135deg, #FF6B35, #E85A25); border-radius: 10px; display: flex; align-items: center; justify-content: center; color: white; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="logo-icon">🎤</div>
+        <strong>VoiceTask</strong>
+    </div>
+
+    <h1>Политика конфиденциальности</h1>
+    <p class="date">Дата вступления в силу: 11 марта 2026 г.</p>
+
+    <h2>1. Введение</h2>
+    <p>VoiceTask («мы», «наше», «приложение») — мобильное приложение для создания задач с помощью голоса. Мы уважаем вашу конфиденциальность и стремимся защитить ваши персональные данные. Эта политика описывает, какие данные мы собираем, как используем и защищаем.</p>
+
+    <h2>2. Какие данные мы собираем</h2>
+    <p><strong>Голосовые записи:</strong> Когда вы используете функцию записи, аудио отправляется на серверы OpenAI (Whisper API) для преобразования в текст. Мы не храним аудиозаписи на наших серверах.</p>
+    <p><strong>Текст задач:</strong> Транскрибированный текст обрабатывается через OpenAI (GPT-4o) для извлечения задач. Текст не хранится на внешних серверах после обработки.</p>
+    <p><strong>Данные задач:</strong> Ваши задачи хранятся локально на устройстве в базе данных SQLite. Они не передаются на внешние серверы.</p>
+    <p><strong>Данные подписки:</strong> Информация о покупках обрабатывается через Apple App Store / Google Play и RevenueCat. Мы не имеем доступа к вашим платёжным данным.</p>
+
+    <h2>3. Как мы используем данные</h2>
+    <p>Голосовые записи используются исключительно для преобразования речи в текст и извлечения задач. Данные обрабатываются в реальном времени и не сохраняются после обработки.</p>
+
+    <h2>4. Сторонние сервисы</h2>
+    <p>Мы используем следующие сторонние сервисы:</p>
+    <p><strong>OpenAI (Whisper API, GPT-4o):</strong> для распознавания речи и извлечения задач. Политика конфиденциальности: <a href="https://openai.com/privacy">openai.com/privacy</a></p>
+    <p><strong>RevenueCat:</strong> для управления подписками. Политика конфиденциальности: <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a></p>
+
+    <h2>5. Хранение данных</h2>
+    <p>Все задачи хранятся локально на вашем устройстве. Вы можете удалить все данные в любой момент через Настройки → Удалить все данные.</p>
+
+    <h2>6. Безопасность</h2>
+    <p>Все соединения с внешними сервисами используют шифрование HTTPS/TLS. Данные на устройстве защищены средствами операционной системы.</p>
+
+    <h2>7. Права пользователя</h2>
+    <p>Вы можете в любой момент: просмотреть свои данные в приложении, удалить все данные через настройки, отозвать разрешение на микрофон в настройках устройства, отменить подписку через App Store / Google Play.</p>
+
+    <h2>8. Дети</h2>
+    <p>VoiceTask не предназначен для детей младше 13 лет. Мы сознательно не собираем данные детей.</p>
+
+    <h2>9. Изменения политики</h2>
+    <p>Мы можем обновлять эту политику. Актуальная версия всегда доступна по этому адресу.</p>
+
+    <h2>10. Контакты</h2>
+    <p>По вопросам конфиденциальности: <a href="mailto:support@voicetask.app">support@voicetask.app</a></p>
+</body>
+</html>
